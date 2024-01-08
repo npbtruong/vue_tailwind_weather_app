@@ -13,7 +13,7 @@
 </template>
 
 <script setup>
-import AnimatePlaceHolder from './AnimatePlaceHolder.vue';
+import AnimatePlaceHolder from './AnimatedPlaceHolder.vue';
 
 
 </script>
