@@ -36,7 +36,7 @@ const getCities = async () => {
    const weatherData = await Promise.all(requests);
 
    // Flicker Delay
-   await new Promise((res) => setTimeout(res,500));
+   // await new Promise((res) => setTimeout(res,500));
 
    //Cuối cùng, với mỗi thành phố, nó gán dữ liệu thời tiết tương ứng từ mảng weatherData vào thuộc tính weather của savedCities.value.
    weatherData.forEach((value, index) => {
